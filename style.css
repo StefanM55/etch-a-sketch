@@ -1,3 +1,17 @@
+body {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#clickBtn {
+  margin: 1rem auto 1rem auto;
+}
+#mainframe {
+  border: 2px solid black;
+  width: fit-content;
+}
 .itemR {
   width: fit-content;
   height: fit-content;
@@ -6,19 +20,20 @@
   justify-content: space-between;
   align-content: space-between;
   flex-grow: 1;
-  border: 2px solid black;
+  border: 0.1px solid lightgrey;
 }
 
 .itemC {
-  width: 50px;
-  height: 50px;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-content: space-between;
   flex-grow: 1;
-  border: 2px solid black;
+  border: 0.1px solid lightgrey;
 }
-.itemC:hover {
+/* .itemC:hover {
   background-color: aqua;
-}
+  transition: 0;
+} */
